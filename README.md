@@ -1,6 +1,6 @@
 <h1>NPC Drugsell V2.0 for Fivem || ESX Framework</h1>
 <p>Required minumum <span style="color: #339966;">$1</span> of patreon membership. <a href="https://patreon.com/menanak47" target="_blank">Get your membership</a> (if you don't have already)</p>
-<p><iframe src="//www.youtube.com/embed/5uYtk9brQGc" width="560" height="314" allowfullscreen="allowfullscreen"></iframe></p>
+<p><strong>Video Showcase:</strong> <a href="https://youtu.be/iwrWpmo31kQ">https://youtu.be/5uYtk9brQGc</a></p>
 <p><strong>Features:</strong></p>
 <ol>
 <li>Sell drugs in specific streets.</li>

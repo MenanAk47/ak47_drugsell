@@ -38,11 +38,11 @@ Config.Police = {
 Config.DrugDetail = {
 	['Grove St'] = {
 		[1] = {
-			name = 'marijuana',
-			label = 'weed',
+			name = 'weed_pooch',
+			label = 'weed pooch',
 			price = {
-				max = 100,
-				min = 50,
+				max = 1000,
+				min = 500,
 			},
 			quantity = 1,
 			chance = {				--Adjust this chance level as you need
@@ -53,11 +53,101 @@ Config.DrugDetail = {
 			},
 		},
 		[2] = {
-			name = 'coke',
-			label = 'Coke',
+			name = 'coke_pooch',
+			label = 'coke pooch',
 			price = {
-				max = 100,
-				min = 50,
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[3] = {
+			name = 'heroin_shot',
+			label = 'heroin shot',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[4] = {
+			name = 'spice_pooch',
+			label = 'spice pooch',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[5] = {
+			name = 'lean_bottle',
+			label = 'lean bottle',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[6] = {
+			name = 'double_cup',
+			label = 'double cup',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[7] = {
+			name = 'xpills',
+			label = 'xpills',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[8] = {
+			name = 'xpills',
+			label = 'xpills',
+			price = {
+				max = 1000,
+				min = 500,
 			},
 			quantity = 1,
 			chance = {
@@ -70,11 +160,11 @@ Config.DrugDetail = {
 	},
 	['Grove Street'] = {
 		[1] = {
-			name = 'marijuana',
-			label = 'weed',
+			name = 'weed_pooch',
+			label = 'weed pooch',
 			price = {
-				max = 100,
-				min = 50,
+				max = 1000,
+				min = 500,
 			},
 			quantity = 1,
 			chance = {				--Adjust this chance level as you need
@@ -85,11 +175,101 @@ Config.DrugDetail = {
 			},
 		},
 		[2] = {
-			name = 'coke',
-			label = 'Coke',
+			name = 'coke_pooch',
+			label = 'coke pooch',
 			price = {
-				max = 100,
-				min = 50,
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[3] = {
+			name = 'heroin_shot',
+			label = 'heroin shot',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[4] = {
+			name = 'spice_pooch',
+			label = 'spice pooch',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[5] = {
+			name = 'lean_bottle',
+			label = 'lean bottle',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[6] = {
+			name = 'double_cup',
+			label = 'double cup',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[7] = {
+			name = 'xpills',
+			label = 'xpills',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[8] = {
+			name = 'xpills',
+			label = 'xpills',
+			price = {
+				max = 1000,
+				min = 500,
 			},
 			quantity = 1,
 			chance = {
@@ -103,11 +283,116 @@ Config.DrugDetail = {
 
 	['Brouge Ave'] = {
 		[1] = {
-			name = 'marijuana',
-			label = 'weed',
+			name = 'weed_pooch',
+			label = 'weed pooch',
 			price = {
-				max = 100,
-				min = 50,
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {				--Adjust this chance level as you need
+				notInterested = 2, 	-- [0-2] NPC will be not interested
+				sell = 10,			-- [3-10] Player can sell
+				policeCall = 11,	-- [11] NPC will call police
+				insecure = 12		-- [12] NPC will attack
+			},
+		},
+		[2] = {
+			name = 'coke_pooch',
+			label = 'coke pooch',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[3] = {
+			name = 'heroin_shot',
+			label = 'heroin shot',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[4] = {
+			name = 'spice_pooch',
+			label = 'spice pooch',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[5] = {
+			name = 'lean_bottle',
+			label = 'lean bottle',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[6] = {
+			name = 'double_cup',
+			label = 'double cup',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[7] = {
+			name = 'xpills',
+			label = 'xpills',
+			price = {
+				max = 1000,
+				min = 500,
+			},
+			quantity = 1,
+			chance = {
+				notInterested = 2,
+				sell = 10,
+				policeCall = 11,
+				insecure = 12
+			},
+		},
+		[8] = {
+			name = 'xpills',
+			label = 'xpills',
+			price = {
+				max = 1000,
+				min = 500,
 			},
 			quantity = 1,
 			chance = {
